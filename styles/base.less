@@ -7,15 +7,19 @@
 
 // -------------------
 
-
+html { background-color: transparent; }
 body {
   font-size: @font-size;
   color: @text-color;
   background-color: @app-background-color;
 }
 
+atom-workspace.workspace {
+	background-color: transparent;
+}
+
 atom-pane {
-  border-right: 1px solid @base-border-color;
+  border-right: 0 solid @base-border-color;
   &:last-child {
     border-right: none;
   }
