@@ -1,13 +1,14 @@
 {
-  "name": "atom-bliss-blur-ui",
+  "name": "atom-bliss-light-ui",
   "theme": "ui",
-  "version": "0.0.0",
-  "description": "A simple UI theme that takes advantage of Electron's transparency.",
+  "version": "0.0.1",
+  "description": "A simple light UI theme that takes advantage of Electron's transparency.",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "atom"
   ],
-  "repository": "https://github.com/katacarbix/atom-bliss-blur",
+  "repository": "https://github.com/katacarbix/atom-bliss-light",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -29,6 +29,12 @@
 }
 
 
+.list-group .selected::before,
+.list-tree .selected::before {
+    background-color: @pane-item-background-color;
+}
+
+
 // Select List -------------------
 .select-list {
   li {
@@ -56,4 +62,10 @@
       padding-left: @popover-list-padding;
     }
   }
+}
+
+
+// Github panel ------------------
+.github-StagingView-group.is-focused .is-selected {
+    background-color: @pane-item-background-color;
 }

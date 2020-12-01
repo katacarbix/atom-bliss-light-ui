@@ -37,20 +37,24 @@
 .btn.btn-error   { .btn-color(@background-color-error); }
 
 .btn-color(@bg) {
-  color: @text-color-selected;
+  color: white;
   background-color: @bg;
   &:hover,
   &:focus {
+      color: white;
     background-color: lighten(@bg, 4%);
   }
   &:active {
+      color: white;
     background-color: darken(@bg, 4%);
   }
   &.selected {
+      color: white;
     background-color: lighten(@bg, 4%);
   }
   &.selected:focus,
   &.selected:hover {
+      color: white;
     background-color: lighten(@bg, 8%);
   }
 }

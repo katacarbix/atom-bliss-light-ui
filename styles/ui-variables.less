@@ -11,58 +11,58 @@
 
 
 // Text Colors
-@text-color:           #ccc;
+@text-color:           #111;
 @text-color-subtle:    #999;
-@text-color-highlight: #fff;
-@text-color-selected:  #eee;
+@text-color-highlight: #333;
+@text-color-selected:  #000;
 
-@text-color-info:    #73c3fa; // light blue
-@text-color-success: #bff57f; // light green
-@text-color-warning: #f5e97f; // light yellow
-@text-color-error:   #ff6b80; // light red
+@text-color-info:    #368cc9; // dark blue
+@text-color-success: #669429; // dark green
+@text-color-warning: #a69a42; // dark yellow
+@text-color-error:   #e03e56; // dark red
 
 // Background colors
-@background-color-info:    #368cc9; // dark blue
-@background-color-success: #669429; // dark green
-@background-color-warning: #a69a42; // dark yellow
-@background-color-error:   #e03e56; // dark red
+@background-color-info:    #73c3fa; // blue
+@background-color-success: #a9e364; // green
+@background-color-warning: #ebdc6a; // yellow
+@background-color-error:   #ff6b80; // red
 
-@background-color-highlight: rgba(255,255,255, 0.1);
-@background-color-selected:  rgba(255,255,255, 0.1);
-@app-background-color: rgba(0,0,0, 0.8);
+@background-color-highlight: rgba(255,255,255, 1);
+@background-color-selected:  #f2f2f2;
+@app-background-color: rgba(255,255,255, 0.8);
 
 // Base colors
 @base-background-color: transparent;
 @base-border-color:     transparent;
 
 // Component colors
-@pane-item-background-color: #000;
+@pane-item-background-color: #fff;
 @pane-item-border-color:     @base-border-color;
 
-@input-background-color: #222;
+@input-background-color: #f6f6f6;
 @input-border-color:     @base-border-color;
 
-@tool-panel-background-color: #000;
+@tool-panel-background-color: #fff;
 @tool-panel-border-color:     @base-border-color;
 
-@inset-panel-background-color: lighten(@tool-panel-background-color, 4%);
+@inset-panel-background-color: darken(@tool-panel-background-color, 2%);
 @inset-panel-border-color:     @base-border-color;
 
-@panel-heading-background-color: lighten(@inset-panel-background-color, 4%);
+@panel-heading-background-color: darken(@inset-panel-background-color, 2%);
 @panel-heading-border-color:     @base-border-color;
 
 @overlay-background-color: @tool-panel-background-color;
 @overlay-border-color:     @base-border-color;
 
-@button-background-color:          #222;
-@button-background-color-hover:    lighten(@button-background-color, 10%);
-@button-background-color-selected: lighten(@button-background-color, 8%);
-@button-border-color:              darken(@button-background-color, 5%);
+@button-background-color:          #eee;
+@button-background-color-hover:    darken(@button-background-color, 4%);
+@button-background-color-selected: darken(@button-background-color, 3%);
+@button-border-color:              lighten(@button-background-color, 5%);
 
 @tab-bar-background-color:    @tool-panel-background-color;
 @tab-bar-border-color:        @base-border-color;
 @tab-background-color:        @tab-bar-background-color;
-@tab-background-color-active: lighten(@tool-panel-background-color, 8%);
+@tab-background-color-active: darken(@tool-panel-background-color, 6%);
 @tab-border-color:            @base-border-color;
 
 @tree-view-background-color: @base-background-color;
