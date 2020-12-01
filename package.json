@@ -1,5 +1,5 @@
 {
-  "name": "atom-wave-ui",
+  "name": "wave-ui",
   "theme": "ui",
   "version": "0.0.0",
   "description": "A clean light UI theme that takes advantage of Electron's transparency.",
@@ -8,7 +8,7 @@
     "theme",
     "atom"
   ],
-  "repository": "https://github.com/katacarbix/atom-wave-ui",
+  "repository": "https://github.com/katacarbix/wave-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

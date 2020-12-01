@@ -4,4 +4,4 @@ A clean light theme for Atom. Parts of it are transparent which require you to m
 
 ![Preview](preview.png)
 
-[Check out the dark companion theme!](https://github.com/katacarbix/atom-fang-ui)
+[Check out the dark companion theme!](https://github.com/katacarbix/fang-ui)

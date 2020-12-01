@@ -12,8 +12,8 @@
 
     // We want to highlight the background of the list items because we dont know their size.
     &.selected {
-      color: @text-color-selected;
-      background-color: @background-color-selected;
+      color: white;
+      background-color: @text-color-subtle;
       &:before{ display: none; }
     }
   }
@@ -24,14 +24,11 @@
 .list-tree {
   color: @text-color;
   .selected {
-    color: @text-color-selected;
+    color: white;
+    &:before {
+        background-color: @text-color-subtle
+    }
   }
-}
-
-
-.list-group .selected::before,
-.list-tree .selected::before {
-    background-color: @pane-item-background-color;
 }
 
 
