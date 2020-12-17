@@ -3,6 +3,7 @@
   "theme": "ui",
   "version": "0.0.0",
   "description": "A clean light UI theme that takes advantage of Electron's transparency.",
+  "author": "Reese Jacobson <me@katacarbix.xyz> (https://ovine.xyz)",
   "keywords": [
     "ui",
     "theme",
